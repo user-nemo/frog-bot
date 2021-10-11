@@ -1,3 +1,2 @@
-frog:
-  jda:
-    key: "your discord bot key"
+bot:
+  key: "your discord api key"
