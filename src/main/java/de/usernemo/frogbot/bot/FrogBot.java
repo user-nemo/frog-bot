@@ -2,9 +2,6 @@ package de.usernemo.frogbot.bot;
 
 import net.dv8tion.jda.api.JDA;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.ApplicationArguments;
-import org.springframework.boot.ApplicationRunner;
-import org.springframework.boot.context.event.ApplicationContextInitializedEvent;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
@@ -15,7 +12,6 @@ public class FrogBot {
     JDA jda;
 
     @EventListener(ApplicationReadyEvent.class)
-    public void run() {
-
+    public void run() throws InterruptedException {
     }
 }
